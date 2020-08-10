@@ -24,5 +24,6 @@ function updatemap() {
             });
         })
 }
-setInterval(updatemap, 1000);
+updatemap();
+setInterval(updatemap, 100000);
 //https://api.covid19api.com/summary
